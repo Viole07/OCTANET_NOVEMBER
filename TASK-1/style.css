@@ -1,0 +1,118 @@
+body {
+  background-color: white;
+  /* background-image: url(https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=1770&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+  /* background-image: linear-gradient(rgba(0,0,0,0.6),rgb(0,0,0,0.6)),url(https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=1770&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgb(0,0,0,0.6)),url(https://images.unsplash.com/photo-1504639725590-34d0984388bd?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  
+}
+
+.container {
+    position:absolute;
+    text-align: center;
+    width: 100vw;
+    height: 20vh;
+    left: 6vw;
+    top: 25vh;
+    color: white;
+}
+
+#cont1 { position: absolute;
+  border-top-right-radius: 50px 40px;
+  border-bottom-right-radius: 50px 40px;
+  padding: 15px;
+  color: white;
+    top: 47vh;
+    left: 0vw;
+    /* right: 0px; */
+    height: 17vh;
+    width: 75vw;
+    background-color: rgba(255, 255, 255, 0.174);
+}
+
+#cont2 { position: absolute;
+  border-top-left-radius: 50px 40px;
+  border-bottom-left-radius: 50px 40px;
+  padding: 15px;
+  text-align: right;
+  color: white;
+    top: 70vh;
+    /* left: 0vw; */
+    right: 0px;
+    height: 17vh;
+    width: 75vw;
+    background-color: rgba(255, 255, 255, 0.174);
+}
+
+#cont3 { position: absolute;
+  border-top-right-radius: 50px 40px;
+  border-bottom-right-radius: 50px 40px;
+  padding: 15px;
+  color: white;
+    top: 93vh;
+    left: 0vw;
+    /* right: 0px; */
+    height: 17vh;
+    width: 75vw;
+    background-color: rgba(255, 255, 255, 0.174);
+}
+
+#cont4 { position: absolute;
+  border-top-left-radius: 50px 40px;
+  border-bottom-left-radius: 50px 40px;
+  text-align: right;
+  padding: 15px;
+  color: white;
+    top: 116vh;
+    /* left: 0vw; */
+    right: 0px;
+    height: 17vh;
+    width: 75vw;
+    background-color: rgba(255, 255, 255, 0.174);
+}
+
+.logo-img {
+  width: auto;
+}
+
+.navbar {
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.accordion {
+  padding: 30px;
+  position: absolute;
+  width: 98.9vw;
+  top: 150vh;
+  --bs-accordion-bg: #c0afb7;
+  --bs-accordian-color: #ffffff;
+  --bs-accordian-btn-bg: #e21754;
+  --bs-accordian-active-bg:   #ff5c8d;
+}
+
+.query {
+  padding: 15px;
+  color: white;
+  position: absolute;
+  top: 140vh;
+}
+
+.footer{
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 190vh;
+  background-color: black;
+  padding: 20px;
+}
+
+.btn{
+  color: white;
+  margin: 15px;
+  margin-left: 200px;
+}
+
+.card {
+  position: absolute;
+  left: 36vw;
+  margin-top: 40px;
+}
