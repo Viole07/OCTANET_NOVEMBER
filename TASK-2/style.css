@@ -1,7 +1,9 @@
 body {
     background: linear-gradient(307deg, #4e085f, #153677 );
 }
-
+.button {
+    color: white;
+}
 .container {
     width: 100%;
     max-width: 540px;
